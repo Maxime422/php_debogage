@@ -17,3 +17,4 @@ echo "Version de PHP : " . phpversion() . "\n";
 // Affichage de la configuration PHP
 echo "<h2>Configuration PHP</h2>\n";
 echo "<pre>" . print_r(ini_get_all(), true) . "</pre>\n";
+
